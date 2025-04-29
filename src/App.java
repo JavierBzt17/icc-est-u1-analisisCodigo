@@ -58,9 +58,12 @@ public class App {
         System.out.println( "Resultado insercion Metodo 2: " + java.util.Arrays.toString(arregloInsercionOrdenado2));
 
         // // Metodo insercionTercero
-        int[] arregloInsercionOrdenado3 =
-        ordenador.insercionTercero(arregloInsercion);
-        System.out.println( "Resultado insercion Metodo 3: " + java.util.Arrays.toString(arregloInsercionOrdenado3));
+        //int[] arregloInsercionOrdenado3 =
+        //ordenador.insercionTercero(arregloInsercion);
+        //System.out.println( "Resultado insercion Metodo 3: " + java.util.Arrays.toString(arregloInsercionOrdenado3));
+
+        System.out.println("\n\nBenchmarking\n");
+        Benchmarking benchmarking = new Benchmarking();
 
     }
 }
